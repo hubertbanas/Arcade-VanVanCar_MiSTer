@@ -360,9 +360,6 @@ set_global_assignment -name VHDL_FILE sn76489/sn76489_noise.vhd
 set_global_assignment -name VHDL_FILE sn76489/sn76489_latch_ctrl.vhd
 set_global_assignment -name VHDL_FILE sn76489/sn76489_clock_div.vhd
 set_global_assignment -name VHDL_FILE sn76489/sn76489_attenuator.vhd
-set_global_assignment -name VHDL_FILE ROM/GFX1.vhd
-set_global_assignment -name VHDL_FILE ROM/ROM_PGM_0.vhd
-set_global_assignment -name VHDL_FILE ROM/ROM_PGM_1.vhd
 set_global_assignment -name VHDL_FILE ROM/PROM7_DST.vhd
 set_global_assignment -name VHDL_FILE ROM/PROM4_DST.vhd
 set_global_assignment -name VHDL_FILE cpu/T80sed.vhd
@@ -373,7 +370,6 @@ set_global_assignment -name VHDL_FILE cpu/T80_ALU.vhd
 set_global_assignment -name VHDL_FILE cpu/T80.vhd
 set_global_assignment -name VHDL_FILE dpram.vhd
 set_global_assignment -name VERILOG_FILE screen_rotate.v
-set_global_assignment -name VHDL_FILE vanvan_vram_addr.vhd
 set_global_assignment -name VHDL_FILE vanvan_video.vhd
 set_global_assignment -name VHDL_FILE vanvan.vhd
 set_global_assignment -name SYSTEMVERILOG_FILE "Arcade-VanVanCar.sv"
